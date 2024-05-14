@@ -5,7 +5,7 @@ import ISBN from './page/ISBN';
 
 export default function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/perpustakaan">
 			<Routes>
 				<Route path="/" element={<Landing />} />
 				<Route path="/isbn" element={<ISBN />} />
